@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    height: 100vh; 
+    background-color: #61d2ff;
+    width: 200px; 
+    position: fixed; 
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1; 
+}
+
+nav .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+
+.nav-icon {
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0; 
+    width: 100%; 
+}
+
+nav ul li {
+    width: 100%; 
+    margin-bottom: 15px; 
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px; 
+    color: #4D6D7A;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 90%;
+}
+
+nav ul li a:hover {
+    background-color: #4D6D7A; 
+    border-radius: 5px; 
+    color: white;
+}
+
+
+.sidebar {
+    width: 200px;
+    background-color: #E2EDF2;
+    height: 100vh;
+    position: fixed;
+}
+
+.header {
+    text-align: end;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #61d2ff;
+}
+
+.user-info {
+    font-family: "Sans-serif", Verdana;
+}
+
+.main-content {
+    margin-left: 210px;
+    padding: 20px;
+    width: 1000px;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    background-color: #8fdcfa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 1000px;
+    margin: 0px 0px;
+    box-shadow: 10px 10px 5px #d1ebf4;
+}
+
+
+.content {
+    padding: 20px;
+    flex: 1;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.content p {
+    font-size: 1em;
+    margin-top: 5px;
+    color: #666;
+}
+
+.image {
+    flex: 0 0 200px;
+    margin: 10px;
+}
+
+.card-image {
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.card-link {
+    text-decoration: none; 
+    color: inherit; 
+}

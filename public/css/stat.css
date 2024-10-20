@@ -1,0 +1,232 @@
+.canvas-chart, .activity-chart {
+    display: block;
+            width: 100% !important;
+            height: 100% !important;
+}
+
+ table {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ 
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #ededed;
+}
+
+.container-opt {
+    position: relative;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 20vw;
+    height: 60%;
+    
+}
+
+/* Dropdown button */
+.dropdown button {
+    background-color: #E0F1EF; /* Green */
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content when the button is clicked */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.weekly-chart-container, .activity-timeline-container, .one-hour-container {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    background-color: #A8E2F9;
+    padding: 1%;
+}
+
+.weekly-chart-container {
+    margin-top: 0;
+}
+
+
+
+.weekly-text, .activity-timeline-text {
+    text-align: center;
+}
+
+.weekly-chart {
+    margin-top: 1%;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+
+
+/* counts numbers */
+
+.counts-container {
+    margin-top: 2vh;
+    display: flex;
+    padding: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    height: 25vh;
+    justify-content: space-between;   
+    color: white; 
+    font-weight: bolder; 
+  
+
+}
+
+.violation, .hours, .active {
+    border-radius: 20px;
+    width: 15%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    
+}
+
+.vio-num, .hours-num, .active-num {
+    font-size: 64px;
+    padding-bottom: 15%;
+    
+}
+
+.vio-text, .hours-text, .active-text {
+    font-size: 24px;
+    
+}
+
+.violation {
+  
+    background-color: #F90707;
+}
+
+.hours {
+
+    background-color: #45C5F8;
+}
+
+.active {
+   
+    background-color: #C7DD00;
+}
+
+
+/* chart */
+
+
+.charts-container {
+    margin-top: 2vh;
+    display: flex;
+    padding: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+    justify-content: center;   
+    color: white; 
+    font-weight: bolder; 
+  
+
+}
+.pie-chart-container, .vio-chart-container, .worker-chart-container {
+    /* border-radius: 20px; */
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    text-align: center;
+    margin: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1%;
+    background-color: #D9D9D9;
+    
+}
+
+.pie-chart, .vio-chart, .worker-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.activity-timeline-container {
+ 
+}
+
+.one-hour-container {
+    /* margin-top: 4vh; */
+}
+
+.activity-timeline-text {
+    text-align: center;
+}
+
+.activity-timeline-chart, .one-hour-chart {
+    margin-top: 1%;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
