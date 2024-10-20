@@ -6,7 +6,6 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::post('/detect-video', [App\Http\Controllers\DetectController::class, 'detectVideo']);
 
 Route::get('/main', [App\Http\Controllers\MainController::class, 'index'])->name('dashboard');
 Route::get('/medical-operation', [App\Http\Controllers\MedicalController::class, 'index'])->name('medical.operation');

@@ -84,7 +84,7 @@ class Stat_APDController extends Controller
 
     public function worker()
     {
-        $lines = file('D:\DSC_Dataset\txtScuffed\Folder Website\public\apd.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $lines = file('C:\Users\ikram\OneDrive\Dokumen\GitHub\Konco_Ikram_DSC_APP\public\apd.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         $hours = [];
 
         foreach ($lines as $x) {

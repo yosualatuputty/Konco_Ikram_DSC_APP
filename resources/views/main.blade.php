@@ -34,7 +34,7 @@
 
         <header class="header">
             <div class="user-info">
-                Ikram Sabila
+                SafeGuard
             </div>
         </header>
         <main class="main-content">

@@ -68,6 +68,9 @@ th {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 5px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
 }
 
 /* Links inside the dropdown */
@@ -86,6 +89,8 @@ th {
 /* Show the dropdown content when the button is clicked */
 .dropdown:hover .dropdown-content {
     display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 h4 {
