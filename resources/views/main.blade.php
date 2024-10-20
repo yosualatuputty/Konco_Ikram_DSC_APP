@@ -52,17 +52,6 @@
                         </div>
                     </div>
                 </a>
-                <a href="/medical-operation" class="card-link">
-                    <div class="card">
-                        <div class="content">
-                            <h3>Medical Operation</h3>
-                            <p>CAM2-LIVING</p>
-                        </div>
-                        <div class="image">
-                            <img src="https://lifemedicalclinic.com.au/wp-content/uploads/2022/07/medical-clinic.jpg" alt="Medical Operation" class="card-image">
-                        </div>
-                    </div>
-                </a>
                 <a href="/construction-operation" class="card-link">
                     <div class="card">
                         <div class="content">

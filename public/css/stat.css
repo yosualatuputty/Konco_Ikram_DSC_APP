@@ -44,8 +44,8 @@ th {
 
 /* Dropdown button */
 .dropdown button {
-    background-color: #E0F1EF; /* Green */
-    color: black;
+    background-color: #2b3c4d; /* Green */
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -88,13 +88,20 @@ th {
     display: block;
 }
 
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .weekly-chart-container, .activity-timeline-container, .one-hour-container {
     margin-top: 2vh;
     display: flex;
     justify-content: center;
     flex-direction:column;
-    background-color: #A8E2F9;
+    background-color: #a6caed;
     padding: 1%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
 }
 
 .weekly-chart-container {
@@ -128,19 +135,18 @@ th {
     justify-content: space-between;   
     color: white; 
     font-weight: bolder; 
-  
-
 }
 
 .violation, .hours, .active {
     border-radius: 20px;
-    width: 15%;
+    width: 30%;
+    height: 110px;
     display: flex;
     justify-content:space-between;
     flex-direction: column;
     text-align: center;
     padding: 1%;
-    
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .vio-num, .hours-num, .active-num {
@@ -156,7 +162,7 @@ th {
 
 .violation {
   
-    background-color: #F90707;
+    background-color: #5e92b7;
 }
 
 .hours {
@@ -166,7 +172,7 @@ th {
 
 .active {
    
-    background-color: #C7DD00;
+    background-color: #2b3c4d;
 }
 
 

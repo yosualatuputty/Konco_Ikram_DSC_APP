@@ -11,7 +11,7 @@
     <canvas id="canvas"></canvas>
     <div class="toggle"></div>
     <div class="camera-status" style="display: none;">Camera is off</div>
-    <p  id="desc">This page contains all the information related to Manufacturing operations and procedures.</p>
+    <h3  id="desc">This page contains all the information related to Manufacturing operations and procedures.</>
 </div>
 <!-- <script src="{{ asset('js/manufacturing.php') }}"></script> -->
 <?php include 'js/manufacturing.php';?>

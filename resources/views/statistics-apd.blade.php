@@ -33,7 +33,7 @@
         </div>  
     </div>
     <div class="weekly-chart-container">
-        <div class="weekly-text">Hourly Chart (Violation)</div>
+        <h4 class="weekly-text">Hourly Chart (Violation)</h4>
         <div class="weekly-chart">
             <canvas class="canvas-chart" id="timeSeriesChart"></canvas>
         </div>
