@@ -6,7 +6,7 @@ This project was made as an entry to Data Science Competition 2024 by KOMINFO an
 
 Developers:
 
-- Muhammad Zidan Rizki Zulfazli - https://github.com/knpa123
+- Muhammad Zidan Rizki Zulfazli - https://github.com/knpa723
 - Muhammad Ikram Sabila Rasyad - https://github.com/Ikram-sabila
 - Bayusatya Mufti Muhammad - https://github.com/Ba3yoo
 - Yosua Nathanael Latuputty - https://github.com/yosualatuputty/
